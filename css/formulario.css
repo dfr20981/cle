@@ -1,0 +1,17 @@
+article{
+	display: block;
+
+}
+.form{
+	width: 300px;
+	margin: auto;
+	background-color: #F6173C; 
+	border-radius: 30px;
+	padding: 10px
+}
+.boton{
+	border-radius: 6px;
+	border: 2px solid #0099CC;
+	background: transparent;
+	display: inline-block;
+}
