@@ -29,7 +29,7 @@ if (mysqli_connect_error()) {
 }
 }else{
 	 $SELECT = "SELECT email From register Where email = ? Limit 1";
-	 $INSERT  "INSERT Into register (nombre, apaterno, amaterno, numcontrol, tel, email, id) value(?, ?, ?, ?, ?, ?, ?)";
+	 $INSERT = "INSERT Into register (nombre, apaterno, amaterno, numcontrol, tel, email, id) value(?, ?, ?, ?, ?, ?, ?)";
 
 //
 	 $stmt = $conn->prepare($SELECT);
