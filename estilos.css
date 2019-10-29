@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	line-height: 1.6em;
+	font-size: 1.2rem;
+}
+h1{
+	font-size:  2rem;
+}
+p{
+	margin-bottom: 1.6em;
+
+}
+
+.footer {
+	margin-top: 6rem;
+	background: #ccc;
+	text-align: center;
+}
+.article{
+	padding-top: 15rem;
+}
