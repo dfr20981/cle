@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>registro alumno</title>
+	<link rel="stylesheet" type="text/css" href="css/headre.css">
+	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script type="javascrip/scripts.js"></script>
+</head>
+<body>
+	<header>
+		<div class="containerlogo">
+			<a href="" class="logo">CLE</a>
+		</div>
+
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="#">CURSO</a>
+					<ul class="submenu">
+						<li><a href="#">basico</a></li>
+						<li><a href="#">intermedio</a></li>
+						<li><a href="#">abansado</a></li>
+					</ul>
+				</li>
+				<li><a href="#">REGISTRO</a>
+					<ul class="submenu">
+						<li><a href="regustroalupno.html">ALUMNOS</a></li>
+						<li><a href="regustroprofe.html">PROFESORES</a></li>
+					</ul>
+				</li>
+				<li><a href="#">CONTACTOS</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<article class="article">
+		<form class="form" action="php/registrara.php" method="POST">
+			<!--formulario tipo texto-->
+			<div>
+				<label> Nombre:</label>
+				<input type="text" id="Nombre " required="">
+			</div>
+			<div>
+				<label>Primer Apellido:</label>
+				<input type="text" name="papellido" required="">
+			</div>
+			<div>
+				<label>Segundo Apellido:</label>
+				<input type="text" name="mapellido" required="">
+			</div>
+			<div>
+				<label>Numero de Control:</label>
+				<input type="numero" name="numcontrol" required="">
+			</div>
+			<div>
+				<label>Telefono:</label>
+				<input type="numero" name="tel" required="">
+			</div>
+			<div>
+				<label>Email:</label>
+				<input type="text" name="email" required="">
+			</div>
+			<button class="boton" type="submit">crear</button>
+			<button class="boton" type="submit">canselar</button>
+		</form>
+	</article>
+
+	<footer class="footer">
+		<div class="container">
+		<img src="img/Sin título-1.jpg">
+		<img src="img/Sin título-2.jpg">
+		<img src="">
+	</div>
+	</footer>
+</body>
+</html>
+

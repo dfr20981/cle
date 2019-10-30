@@ -1,0 +1,15 @@
+article{
+	display: block;
+
+}
+.form{
+	width: 300px;
+	margin: auto;
+	background-color: #F6173C; 
+	padding: 10px
+}
+.boton{
+	border: 2px solid #0099CC;
+	background: transparent;
+	display: inline-block;
+}
