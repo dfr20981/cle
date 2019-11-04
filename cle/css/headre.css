@@ -20,6 +20,7 @@ header{
 
 }
 .logo{
+	float: left;
 	position: relative;
   top: 18px;
   left: 10px;
