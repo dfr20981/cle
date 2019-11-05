@@ -11,7 +11,9 @@ body{
 	font-size: 1.2rem;
 }
 h1{
+	color: #fff;
 	font-size:  2rem;
+	text-align-last: center;
 }
 p{
 	margin-bottom: 1.6em;
@@ -27,10 +29,14 @@ p{
 	padding-top: 15rem;
 }
 
-.texto{
+h1 .texto{
+	border-radius: 40px;
 	color: inherit;
+	text-align-last: center;
 }
 
-.textotitulo{
+h1 .textotitulo{
+	border-radius: 40px;
 color: #ffffff;
+text-align-last: center;
 }
